@@ -11,11 +11,10 @@ import kostka.Silnik;
 public class Kostka {
 
     public static void main(String[] args) {
-    Gracz player=new GraczK("Kompd");
+    Gracz player=new GraczK("Komp");
     Silnik g=new Silnik();
     g.dodajGracza(player);
-    g.dodajGracza(new GraczH("Wera"));
+    g.dodajGracza(new GraczH("Czlo"));
     g.start();
     }
-
-}
+}   
